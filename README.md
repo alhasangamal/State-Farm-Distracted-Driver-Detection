@@ -1,7 +1,34 @@
 State Farm Distracted Driver Detection
 ==============================
 
-A short description of the project.
+We've all been there: a light turns green and the car in front of you doesn't budge. Or, a previously unremarkable vehicle suddenly slows and starts swerving from side-to-side.
+
+When you pass the offending driver, what do you expect to see? You certainly aren't surprised when you spot a driver who is texting, seemingly enraptured by social media, or in a lively hand-held conversation on their phone.
+
+![image](https://storage.googleapis.com/kaggle-competitions/kaggle/5048/media/drivers_statefarm.png)
+
+According to the CDC motor vehicle safety division, one in five car accidents is caused by a distracted driver. Sadly, this translates to 425,000 people injured and 3,000 people killed by distracted driving every year.
+
+State Farm hopes to improve these alarming statistics, and better insure their customers, by testing whether dashboard cameras can automatically detect drivers engaging in distracted behaviors. Given a dataset of 2D dashboard camera images, State Farm is challenging Kagglers to classify each driver's behavior. Are they driving attentively, wearing their seatbelt, or taking a selfie with their friends in the backseat?
+
+Data Set Description
+--------------------
+In this competition you are given driver images, each taken in a car with a driver doing something in the car (texting, eating, talking on the phone, makeup, reaching behind, etc). Your goal is to predict the likelihood of what the driver is doing in each picture. 
+
+![image](https://storage.googleapis.com/kaggle-competitions/kaggle/5048/media/output_DEb8oT.gif)
+
+The 10 classes to predict are:
+
+- c0: safe driving
+- c1: texting - right
+- c2: talking on the phone - right
+- c3: texting - left
+- c4: talking on the phone - left
+- c5: operating the radio
+- c6: drinking
+- c7: reaching behind
+- c8: hair and makeup
+- c9: talking to passenger
 
 Project Organization
 ------------
